@@ -10,7 +10,6 @@
     <script src="https://unpkg.com/aframe-environment-component@1.0.0/dist/aframe-environment-component.min.js"></script>
 
     <a-scene embedded arjs>
-      <a-marker-camera preset='hiro'>
 
         <a-assets>
           <a-mixin id="blue" material="color: #4CC3D9"></a-mixin>
@@ -61,7 +60,7 @@
         <a-entity id="rightHand" laser-controls="" daydream-controls="hand:right" gearvr-controls="hand:right" oculus-go-controls="hand:right" oculus-touch-controls="hand:right" vive-controls="hand:right" windows-motion-controls=""></a-entity>
         <a-entity position=""></a-entity>
         
-      </a-marker-camera>
+        <a-marker-camera preset='hiro'></a-marker-camera>
     </a-scene>
 
   </body>
